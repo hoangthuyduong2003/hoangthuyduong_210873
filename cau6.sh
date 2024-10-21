@@ -7,5 +7,5 @@ DATE=$(date)
 
 #tao file info.txt va noi dung ten nguoi dung va ngay gio
 echo "Ten nguoi dung: $USERNAME" > info.txt
-echo "Ngay gio hien tai:" >> info.txt
+echo "Ngay gio hien tai: $DATE" >> info.txt
 
